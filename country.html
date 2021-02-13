@@ -69,15 +69,7 @@
         while (n >= 0) {
          
       console.log(n);
-          
-
-        //   (function(){
-        //     setInterval( ()=> {
-        //     var t = new Date().toLocaleTimeString();
-        //     document.querySelectorAll(".time").innerHTML = `${allcountry[n].timezones}`;
-        //       }, 1000)
-        //  }) (); 
-
+      
           const htmlData = ` 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-around"  >
             <div class="card m-2">
@@ -99,7 +91,7 @@
            </div>
         </div>
         `;
-
+  
           container.insertAdjacentHTML("afterbegin", htmlData);
           n--;
         }
